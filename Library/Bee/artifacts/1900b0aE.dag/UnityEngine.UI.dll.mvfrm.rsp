@@ -86,9 +86,10 @@ Library\Bee\artifacts\mvdfrm\UnityEditor.Android.Extensions.dll_CAA4D6C84A556F5B
 Library\Bee\artifacts\mvdfrm\UnityEditor.iOS.Extensions.Common.dll_9DF7D073D778F9B8.mvfrm
 Library\Bee\artifacts\mvdfrm\UnityEditor.iOS.Extensions.dll_46F13211E061D56D.mvfrm
 Library\Bee\artifacts\mvdfrm\UnityEditor.iOS.Extensions.Xcode.dll_31B1C4DDD1C3A114.mvfrm
+Library\Bee\artifacts\mvdfrm\UnityEditor.WebGL.Extensions.dll_9198046B6C631E8D.mvfrm
 Library\Bee\artifacts\mvdfrm\UnityEditor.WindowsStandalone.Extensions.dll_925844E2A023DCFD.mvfrm
-Library\Bee\artifacts\mvdfrm\Unity.Plastic.Antlr3.Runtime.dll_840908D4D60B2E8E.mvfrm
-Library\Bee\artifacts\mvdfrm\Unity.Plastic.Newtonsoft.Json.dll_114E544C6E6EC6C7.mvfrm
-Library\Bee\artifacts\mvdfrm\Unity.VisualScripting.IonicZip.dll_516B246628A90C28.mvfrm
-Library\Bee\artifacts\mvdfrm\Unity.VisualScripting.YamlDotNet.dll_B7EE89F0B0D288D4.mvfrm
-Library\Bee\artifacts\mvdfrm\Unity.VisualScripting.Antlr3.Runtime.dll_695BB0D1E19B98F3.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.Plastic.Antlr3.Runtime.dll_847D664796C947D0.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.Plastic.Newtonsoft.Json.dll_153754A3958ED065.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.VisualScripting.IonicZip.dll_347884836AB4A96A.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.VisualScripting.YamlDotNet.dll_59798B650A1ECE32.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.VisualScripting.Antlr3.Runtime.dll_0AE6B2463AE7DE51.mvfrm
