@@ -1,13 +1,21 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
-    - AutoMove
-    - CamRay
-    - PsyLocation
+    - ComeNPC
+    - MainCharacter
+    - MainScript
+    - MiniGame
+    - UIArrangement
     DOTween.dll:
     - DG.Tweening.Core.DOTweenSettings
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
+    Unity.TextMeshPro.dll:
+    - TMPro.TMP_FontAsset
+    - TMPro.TMP_Settings
+    - TMPro.TMP_SpriteAsset
+    - TMPro.TMP_StyleSheet
+    - TMPro.TextMeshProUGUI
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -15,19 +23,56 @@ ScriptsOnlyBuild:
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.Image
+    - UnityEngine.UI.Outline
     - UnityEngine.UI.Text
   serializedClasses:
     DOTween:
     - DG.Tweening.Core.DOTweenSettings/ModulesSetup
     - DG.Tweening.Core.DOTweenSettings/SafeModeOptions
+    Unity.TextMeshPro:
+    - TMPro.FaceInfo_Legacy
+    - TMPro.FontAssetCreationSettings
+    - TMPro.KerningTable
+    - TMPro.TMP_Character
+    - TMPro.TMP_FontFeatureTable
+    - TMPro.TMP_FontWeightPair
+    - TMPro.TMP_GlyphAdjustmentRecord
+    - TMPro.TMP_GlyphPairAdjustmentRecord
+    - TMPro.TMP_GlyphValueRecord
+    - TMPro.TMP_Sprite
+    - TMPro.TMP_SpriteCharacter
+    - TMPro.TMP_SpriteGlyph
+    - TMPro.TMP_Style
+    - TMPro.VertexGradient
     UnityEngine.CoreModule:
+    - UnityEngine.Events.ArgumentCache
     - UnityEngine.Events.PersistentCallGroup
+    - UnityEngine.Events.PersistentListenerMode
+    - UnityEngine.Events.UnityEvent`1[NPC]
+    UnityEngine.TextCoreFontEngineModule:
+    - UnityEngine.TextCore.FaceInfo
+    - UnityEngine.TextCore.Glyph
+    - UnityEngine.TextCore.GlyphMetrics
+    - UnityEngine.TextCore.GlyphRect
     UnityEngine.UI:
+    - UnityEngine.UI.AnimationTriggers
+    - UnityEngine.UI.Button/ButtonClickedEvent
+    - UnityEngine.UI.ColorBlock
     - UnityEngine.UI.FontData
     - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
-  methodsToPreserve: []
+    - UnityEngine.UI.Navigation
+    - UnityEngine.UI.SpriteState
+  methodsToPreserve:
+  - assembly: Assembly-CSharp
+    fullTypeName: MiniGame
+    methodName: CosSinSpawn
+  - assembly: Assembly-CSharp
+    fullTypeName: MainScript
+    methodName: GameStart
   sceneClasses:
     Assets/Scenes/SampleScene.unity:
     - Class: 1
@@ -48,6 +93,12 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
+    - Class: 49
+      Script: {instanceID: 0}
+    - Class: 50
+      Script: {instanceID: 0}
+    - Class: 58
+      Script: {instanceID: 0}
     - Class: 64
       Script: {instanceID: 0}
     - Class: 65
@@ -61,23 +112,45 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 2020}
+      Script: {instanceID: 1638}
     - Class: 114
-      Script: {instanceID: 2612}
+      Script: {instanceID: 2266}
     - Class: 114
-      Script: {instanceID: 2836}
+      Script: {instanceID: 2710}
     - Class: 114
-      Script: {instanceID: 5510}
+      Script: {instanceID: 2936}
     - Class: 114
-      Script: {instanceID: 5840}
+      Script: {instanceID: 3240}
     - Class: 114
-      Script: {instanceID: 6334}
+      Script: {instanceID: 3610}
     - Class: 114
-      Script: {instanceID: 23080}
+      Script: {instanceID: 4256}
     - Class: 114
-      Script: {instanceID: 23212}
+      Script: {instanceID: 4340}
     - Class: 114
-      Script: {instanceID: 25198}
+      Script: {instanceID: 4614}
+    - Class: 114
+      Script: {instanceID: 5384}
+    - Class: 114
+      Script: {instanceID: 5664}
+    - Class: 114
+      Script: {instanceID: 6014}
+    - Class: 114
+      Script: {instanceID: 6168}
+    - Class: 114
+      Script: {instanceID: 6406}
+    - Class: 114
+      Script: {instanceID: 6518}
+    - Class: 114
+      Script: {instanceID: 6892}
+    - Class: 114
+      Script: {instanceID: 7416}
+    - Class: 114
+      Script: {instanceID: 8232}
+    - Class: 114
+      Script: {instanceID: 8346}
+    - Class: 114
+      Script: {instanceID: 23444}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -85,6 +158,8 @@ ScriptsOnlyBuild:
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
       Script: {instanceID: 0}
     - Class: 222
       Script: {instanceID: 0}
@@ -167,6 +242,12 @@ ScriptsOnlyBuild:
     className: TMP_StyleSheet
   - hash:
       serializedVersion: 2
+      Hash: ea5407d3814c1b7ae86dd74621f5bca1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: NPC
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
@@ -198,9 +279,21 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: AutoMove
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnBecameVisibleMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: ea5407d3814c1b7ae86dd74621f5bca1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: LinerNPC
   - hash:
       serializedVersion: 2
       Hash: cc4274b586df3c02688bac01b88bd16c
@@ -312,6 +405,12 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Character
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnInputFieldValueChangedMessageListener
@@ -333,6 +432,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnScrollMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: d72d48d3b89d0bf1c4ab1d27fabbae1a
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: DG.Tweening
+    className: DOTweenAnimation
   - hash:
       serializedVersion: 2
       Hash: 8aa3d6ccbcb54ee8db6c1229854adaaa
@@ -363,6 +468,18 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
     className: PlayerQuitHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 704dcd31abc789439bc3f3cd10b58c2b
+    assemblyName: DOTween.dll
+    namespaceName: DG.Tweening.Core
+    className: DOTweenComponent
+  - hash:
+      serializedVersion: 2
+      Hash: 23206d8cacf2b6e30fd52e948d6c73f5
+    assemblyName: DOTween.dll
+    namespaceName: DG.Tweening.Core
+    className: DOTweenSettings
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -435,6 +552,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: SignalReceiver
+  - hash:
+      serializedVersion: 2
+      Hash: cfcccaadcb7db5162d983a7790ac9495
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MainCharacter
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -623,6 +746,12 @@ ScriptsOnlyBuild:
     className: StateGraphAsset
   - hash:
       serializedVersion: 2
+      Hash: b5fc3843e35dd6d09a719cb0d10ff4a5
+    assemblyName: DemiLib.dll
+    namespaceName: DG.DemiLib.External
+    className: DeHierarchyComponent
+  - hash:
+      serializedVersion: 2
       Hash: a1aa98c78061c6f03a8c124cda576e67
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -647,13 +776,25 @@ ScriptsOnlyBuild:
     className: TextMeshProUGUI
   - hash:
       serializedVersion: 2
+      Hash: ea5407d3814c1b7ae86dd74621f5bca1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FirstNPC
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnMouseUpAsButtonMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 748dd2a2a28da4e618912da5ac45684b
+      Hash: ddebff9a566b7888571f3f3e6154640a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MainScript
+  - hash:
+      serializedVersion: 2
+      Hash: e09e8bebc0fcd32bb8af1287a6b44816
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: StandaloneInputModule
@@ -677,10 +818,28 @@ ScriptsOnlyBuild:
     className: MarkerTrack
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CamRay
+  - hash:
+      serializedVersion: 2
       Hash: 8e6ceabfd38a184413d69b7db56c89cc
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools
     className: BeforeAfterTestCommandState
+  - hash:
+      serializedVersion: 2
+      Hash: 633b7a21a07e2e848df526bbef0edc40
+    assemblyName: DOTweenPro.dll
+    namespaceName: DG.Tweening
+    className: DOTweenPath
+  - hash:
+      serializedVersion: 2
+      Hash: d452b4ce4b4cca771c54091cc2623c68
+    assemblyName: DOTweenPro.dll
+    namespaceName: DG.Tweening
+    className: DOTweenVisualManager
   - hash:
       serializedVersion: 2
       Hash: 4fd8bf02e3089425d3502e26c44ba31a
@@ -785,6 +944,12 @@ ScriptsOnlyBuild:
     className: Dropdown
   - hash:
       serializedVersion: 2
+      Hash: 34259205254ccf1dc1e6965e4e015379
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MiniGame
+  - hash:
+      serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -845,10 +1010,22 @@ ScriptsOnlyBuild:
     className: TMP_ScrollbarEventHandler
   - hash:
       serializedVersion: 2
+      Hash: ea5407d3814c1b7ae86dd74621f5bca1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ComeNPC
+  - hash:
+      serializedVersion: 2
       Hash: 8220b46879dc5e37db1b940c938f5744
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: SignalEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: cde8da4cc97b8134e35b503c13c5ad68
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UIArrangement
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -863,7 +1040,7 @@ ScriptsOnlyBuild:
     className: UnityOnMouseEnterMessageListener
   - hash:
       serializedVersion: 2
-      Hash: abf1930d8126d0b2e00e9449129a0190
+      Hash: ec4c1d7d9fe98434976788ebc4ee261e
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: TouchInputModule
@@ -873,55 +1050,7 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: ca8a7699623b0ce66cd1ac79a65023e2
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: CamRay
-  - hash:
-      serializedVersion: 2
-      Hash: b5fc3843e35dd6d09a719cb0d10ff4a5
-    assemblyName: DemiLib.dll
-    namespaceName: DG.DemiLib.External
-    className: DeHierarchyComponent
-  - hash:
-      serializedVersion: 2
-      Hash: 704dcd31abc789439bc3f3cd10b58c2b
-    assemblyName: DOTween.dll
-    namespaceName: DG.Tweening.Core
-    className: DOTweenComponent
-  - hash:
-      serializedVersion: 2
-      Hash: 23206d8cacf2b6e30fd52e948d6c73f5
-    assemblyName: DOTween.dll
-    namespaceName: DG.Tweening.Core
-    className: DOTweenSettings
-  - hash:
-      serializedVersion: 2
-      Hash: 633b7a21a07e2e848df526bbef0edc40
-    assemblyName: DOTweenPro.dll
-    namespaceName: DG.Tweening
-    className: DOTweenPath
-  - hash:
-      serializedVersion: 2
-      Hash: d452b4ce4b4cca771c54091cc2623c68
-    assemblyName: DOTweenPro.dll
-    namespaceName: DG.Tweening
-    className: DOTweenVisualManager
-  - hash:
-      serializedVersion: 2
-      Hash: d72d48d3b89d0bf1c4ab1d27fabbae1a
-    assemblyName: Assembly-CSharp-firstpass.dll
-    namespaceName: DG.Tweening
-    className: DOTweenAnimation
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: AutoMove
   platform: 20
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Users/fsait/Desktop/PsytofuGames/Testiikawa0923
+  playerPath: C:/Users/fsait/Desktop/PsytofuGames/game1014

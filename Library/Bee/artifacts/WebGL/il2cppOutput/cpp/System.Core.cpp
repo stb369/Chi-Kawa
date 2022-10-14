@@ -63,8 +63,8 @@ IL2CPP_EXTERN_C RuntimeClass* InvalidOperationException_t5DDE4D49B7405FAAB1E4576
 IL2CPP_EXTERN_C String_t* _stringLiteral66F9618FDA792CAB23AF2D7FFB50AB2D3E393DC5;
 IL2CPP_EXTERN_C String_t* _stringLiteral9D0E978C2541B8A36DFB07E397656689CE9E713F;
 IL2CPP_EXTERN_C String_t* _stringLiteralB7E78BE66617B9AE36B6A6E170E3545EE25C1D11;
-IL2CPP_EXTERN_C const RuntimeMethod* Enumerable_Max_m30DE6D3273F1E770CC99EC43653F8F4BA4A94760_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Enumerable_Min_m08CFCF12550397A30F094F24E2F68AD21E98EC9F_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerable_Max_mF33848068459BE74BF534D16F6B678BB677EE704_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerable_Min_m3D3C3E5CE25D27D94448CA832FB5AB9F702D5443_RuntimeMethod_var;
 struct Exception_t_marshaled_com;
 struct Exception_t_marshaled_pinvoke;
 
@@ -284,9 +284,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArgumentNullException__ctor_m444AE141157
 // System.Void System.InvalidOperationException::.ctor(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InvalidOperationException__ctor_mE4CB6F4712AB6D99A2358FBAE2E052B3EE976162 (InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB* __this, String_t* ___message0, const RuntimeMethod* method) ;
 // System.Exception System.Linq.Error::ArgumentNull(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Exception_t* Error_ArgumentNull_m9157523765DB73FC9F7B984F2F740F2B5EDB7337 (String_t* ___s0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Exception_t* Error_ArgumentNull_m1141D2C9AF8AB6ACC45E7488789598C5283D4EEE (String_t* ___s0, const RuntimeMethod* method) ;
 // System.Exception System.Linq.Error::NoElements()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Exception_t* Error_NoElements_m0E3D3D6CC1E9C9ED28CD989485766C91DC71042F (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Exception_t* Error_NoElements_m49C996124733B026EA2FDBE9382AAD136CA22362 (const RuntimeMethod* method) ;
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -301,7 +301,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Exception_t* Error_NoElements_m0E3D3D6CC1E9C9
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // System.Exception System.Linq.Error::ArgumentNull(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Exception_t* Error_ArgumentNull_m9157523765DB73FC9F7B984F2F740F2B5EDB7337 (String_t* ___s0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Exception_t* Error_ArgumentNull_m1141D2C9AF8AB6ACC45E7488789598C5283D4EEE (String_t* ___s0, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -317,7 +317,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Exception_t* Error_ArgumentNull_m9157523765DB
 	}
 }
 // System.Exception System.Linq.Error::MoreThanOneMatch()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Exception_t* Error_MoreThanOneMatch_mADF388C1E5EACA4BA8E0CDAAA0834C595544BFAF (const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Exception_t* Error_MoreThanOneMatch_mE8ABBCC1C5FBA4D7BBE5B0647992D20F005F7A97 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -333,7 +333,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Exception_t* Error_MoreThanOneMatch_mADF388C1
 	}
 }
 // System.Exception System.Linq.Error::NoElements()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Exception_t* Error_NoElements_m0E3D3D6CC1E9C9ED28CD989485766C91DC71042F (const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Exception_t* Error_NoElements_m49C996124733B026EA2FDBE9382AAD136CA22362 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -357,7 +357,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Exception_t* Error_NoElements_m0E3D3D6CC1E9C9
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // System.Int32 System.Linq.Enumerable::Min(System.Collections.Generic.IEnumerable`1<System.Int32>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Enumerable_Min_m08CFCF12550397A30F094F24E2F68AD21E98EC9F (RuntimeObject* ___source0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Enumerable_Min_m3D3C3E5CE25D27D94448CA832FB5AB9F702D5443 (RuntimeObject* ___source0, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -381,8 +381,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Enumerable_Min_m08CFCF12550397A30F094
 	}
 	{
 		Exception_t* L_1;
-		L_1 = Error_ArgumentNull_m9157523765DB73FC9F7B984F2F740F2B5EDB7337(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral66F9618FDA792CAB23AF2D7FFB50AB2D3E393DC5)), NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Enumerable_Min_m08CFCF12550397A30F094F24E2F68AD21E98EC9F_RuntimeMethod_var)));
+		L_1 = Error_ArgumentNull_m1141D2C9AF8AB6ACC45E7488789598C5283D4EEE(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral66F9618FDA792CAB23AF2D7FFB50AB2D3E393DC5)), NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Enumerable_Min_m3D3C3E5CE25D27D94448CA832FB5AB9F702D5443_RuntimeMethod_var)));
 	}
 
 IL_000e:
@@ -493,12 +493,12 @@ IL_0045:
 IL_004a:
 	{
 		Exception_t* L_17;
-		L_17 = Error_NoElements_m0E3D3D6CC1E9C9ED28CD989485766C91DC71042F(NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_17, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Enumerable_Min_m08CFCF12550397A30F094F24E2F68AD21E98EC9F_RuntimeMethod_var)));
+		L_17 = Error_NoElements_m49C996124733B026EA2FDBE9382AAD136CA22362(NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_17, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Enumerable_Min_m3D3C3E5CE25D27D94448CA832FB5AB9F702D5443_RuntimeMethod_var)));
 	}
 }
 // System.Int32 System.Linq.Enumerable::Max(System.Collections.Generic.IEnumerable`1<System.Int32>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Enumerable_Max_m30DE6D3273F1E770CC99EC43653F8F4BA4A94760 (RuntimeObject* ___source0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Enumerable_Max_mF33848068459BE74BF534D16F6B678BB677EE704 (RuntimeObject* ___source0, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -522,8 +522,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Enumerable_Max_m30DE6D3273F1E770CC99E
 	}
 	{
 		Exception_t* L_1;
-		L_1 = Error_ArgumentNull_m9157523765DB73FC9F7B984F2F740F2B5EDB7337(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral66F9618FDA792CAB23AF2D7FFB50AB2D3E393DC5)), NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Enumerable_Max_m30DE6D3273F1E770CC99EC43653F8F4BA4A94760_RuntimeMethod_var)));
+		L_1 = Error_ArgumentNull_m1141D2C9AF8AB6ACC45E7488789598C5283D4EEE(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral66F9618FDA792CAB23AF2D7FFB50AB2D3E393DC5)), NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Enumerable_Max_mF33848068459BE74BF534D16F6B678BB677EE704_RuntimeMethod_var)));
 	}
 
 IL_000e:
@@ -634,8 +634,8 @@ IL_0045:
 IL_004a:
 	{
 		Exception_t* L_17;
-		L_17 = Error_NoElements_m0E3D3D6CC1E9C9ED28CD989485766C91DC71042F(NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_17, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Enumerable_Max_m30DE6D3273F1E770CC99EC43653F8F4BA4A94760_RuntimeMethod_var)));
+		L_17 = Error_NoElements_m49C996124733B026EA2FDBE9382AAD136CA22362(NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_17, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Enumerable_Max_mF33848068459BE74BF534D16F6B678BB677EE704_RuntimeMethod_var)));
 	}
 }
 #ifdef __clang__

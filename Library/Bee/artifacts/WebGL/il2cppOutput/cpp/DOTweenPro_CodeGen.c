@@ -23,11 +23,11 @@ extern void DOTweenVisualManager_OnDisable_mCF0717FD910F6847A7F88BA458913902E495
 // 0x00000005 System.Void DG.Tweening.DOTweenVisualManager::.ctor()
 extern void DOTweenVisualManager__ctor_m1E5F230BCD35D65DF6745409DBA48F253D62DFDC (void);
 // 0x00000006 System.Void DG.Tweening.DOTweenPath::add_OnReset(System.Action`1<DG.Tweening.DOTweenPath>)
-extern void DOTweenPath_add_OnReset_m7534B843F03E149EF05C738E1BAC50973F64DA26 (void);
+extern void DOTweenPath_add_OnReset_m21CBBDBCFB0F1B526F87BBEC72CE33E5E5B2401E (void);
 // 0x00000007 System.Void DG.Tweening.DOTweenPath::remove_OnReset(System.Action`1<DG.Tweening.DOTweenPath>)
-extern void DOTweenPath_remove_OnReset_mFBC0C7E0043AC5BE819E22674589AEAFF785C4C1 (void);
+extern void DOTweenPath_remove_OnReset_m1BCDCFE6545C6CD6E047FB1E939A6C886F785074 (void);
 // 0x00000008 System.Void DG.Tweening.DOTweenPath::Dispatch_OnReset(DG.Tweening.DOTweenPath)
-extern void DOTweenPath_Dispatch_OnReset_m6AE0050F93607C92804C49DC4E811E7AB1F52834 (void);
+extern void DOTweenPath_Dispatch_OnReset_mD6B0898A2DA53E54CCFA2163150BF31169AF92B8 (void);
 // 0x00000009 System.Void DG.Tweening.DOTweenPath::Awake()
 extern void DOTweenPath_Awake_m7D6C11F58AD1E1DA053BBE8DAFCAA1DACFACB7B8 (void);
 // 0x0000000A System.Void DG.Tweening.DOTweenPath::Reset()
@@ -75,7 +75,7 @@ extern void DOTweenPath_U3CAwakeU3Eb__44_0_m2E87212F9F04919063EF4233D57D81D53A15
 // 0x0000001F System.Void DG.Tweening.DOTweenPro::.ctor()
 extern void DOTweenPro__ctor_m2DDB60D97C8270E521ECCA1E9F7C250CD57F1839 (void);
 // 0x00000020 System.Void DG.Tweening.DOTweenPro::.cctor()
-extern void DOTweenPro__cctor_m0E8C69425B0575AF533486D8EA9A1F28EE208267 (void);
+extern void DOTweenPro__cctor_mFEC55C20526D9C818F7AD8EC8FC4E6EF925D82C5 (void);
 // 0x00000021 System.Void DG.Tweening.Plugins.SpiralOptions::Reset()
 extern void SpiralOptions_Reset_m9278DCF7AB054A5C2D8CF9679ED7A6F411AD9856 (void);
 // 0x00000022 System.Void DG.Tweening.Plugins.SpiralPlugin::Reset(DG.Tweening.Core.TweenerCore`3<UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.SpiralOptions>)
@@ -85,7 +85,7 @@ extern void SpiralPlugin_SetFrom_mF4053B0805926521D8DEC23E170B69E2BA4875AA (void
 // 0x00000024 System.Void DG.Tweening.Plugins.SpiralPlugin::SetFrom(DG.Tweening.Core.TweenerCore`3<UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.SpiralOptions>,UnityEngine.Vector3,System.Boolean,System.Boolean)
 extern void SpiralPlugin_SetFrom_m58FFC5D8F892025A3C4E14C38D76015E51587825 (void);
 // 0x00000025 DG.Tweening.Plugins.Core.ABSTweenPlugin`3<UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.SpiralOptions> DG.Tweening.Plugins.SpiralPlugin::Get()
-extern void SpiralPlugin_Get_mE4C4E109C56275C41CD556F92D3AD5ED648555E1 (void);
+extern void SpiralPlugin_Get_mEF40CC56A5043E8122C572AFCBC224BA925BC326 (void);
 // 0x00000026 UnityEngine.Vector3 DG.Tweening.Plugins.SpiralPlugin::ConvertToStartValue(DG.Tweening.Core.TweenerCore`3<UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.SpiralOptions>,UnityEngine.Vector3)
 extern void SpiralPlugin_ConvertToStartValue_m477DB84B81F2B437E7AF9B9084CAB25CCEF4C30B (void);
 // 0x00000027 System.Void DG.Tweening.Plugins.SpiralPlugin::SetRelativeEndValue(DG.Tweening.Core.TweenerCore`3<UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.SpiralOptions>)
@@ -99,7 +99,7 @@ extern void SpiralPlugin_EvaluateAndApply_m49DBCEF982963D510C824FC336962C1330278
 // 0x0000002B System.Void DG.Tweening.Plugins.SpiralPlugin::.ctor()
 extern void SpiralPlugin__ctor_m9ACFE0F9B14BBBD77A9570420667150892067033 (void);
 // 0x0000002C System.Void DG.Tweening.Plugins.SpiralPlugin::.cctor()
-extern void SpiralPlugin__cctor_mAE281EE6B5D19AA288BCF839D93250268783A09A (void);
+extern void SpiralPlugin__cctor_m0DAEB3A86F770B21433A721D2ACD3A33A3F6DAB4 (void);
 // 0x0000002D System.Void DG.Tweening.Core.ABSAnimationComponent::DOPlay()
 // 0x0000002E System.Void DG.Tweening.Core.ABSAnimationComponent::DOPlayBackwards()
 // 0x0000002F System.Void DG.Tweening.Core.ABSAnimationComponent::DOPlayForward()
@@ -119,9 +119,9 @@ static Il2CppMethodPointer s_methodPointers[55] =
 	DOTweenVisualManager_OnEnable_m6A7CBF19C18F2BE6B7F43E0CB55DD7776B62ACBB,
 	DOTweenVisualManager_OnDisable_mCF0717FD910F6847A7F88BA458913902E495DCFE,
 	DOTweenVisualManager__ctor_m1E5F230BCD35D65DF6745409DBA48F253D62DFDC,
-	DOTweenPath_add_OnReset_m7534B843F03E149EF05C738E1BAC50973F64DA26,
-	DOTweenPath_remove_OnReset_mFBC0C7E0043AC5BE819E22674589AEAFF785C4C1,
-	DOTweenPath_Dispatch_OnReset_m6AE0050F93607C92804C49DC4E811E7AB1F52834,
+	DOTweenPath_add_OnReset_m21CBBDBCFB0F1B526F87BBEC72CE33E5E5B2401E,
+	DOTweenPath_remove_OnReset_m1BCDCFE6545C6CD6E047FB1E939A6C886F785074,
+	DOTweenPath_Dispatch_OnReset_mD6B0898A2DA53E54CCFA2163150BF31169AF92B8,
 	DOTweenPath_Awake_m7D6C11F58AD1E1DA053BBE8DAFCAA1DACFACB7B8,
 	DOTweenPath_Reset_m155EC77D1DF99DDAFA0DE3A0795075CE7CF31EEC,
 	DOTweenPath_OnDestroy_m018214A578ABF8AEE463C2F1DA71D9E2D475534F,
@@ -145,19 +145,19 @@ static Il2CppMethodPointer s_methodPointers[55] =
 	DOTweenPath__ctor_m51D5DE785B9613E96920B32CCCD4D53526C098C8,
 	DOTweenPath_U3CAwakeU3Eb__44_0_m2E87212F9F04919063EF4233D57D81D53A15C7E5,
 	DOTweenPro__ctor_m2DDB60D97C8270E521ECCA1E9F7C250CD57F1839,
-	DOTweenPro__cctor_m0E8C69425B0575AF533486D8EA9A1F28EE208267,
+	DOTweenPro__cctor_mFEC55C20526D9C818F7AD8EC8FC4E6EF925D82C5,
 	SpiralOptions_Reset_m9278DCF7AB054A5C2D8CF9679ED7A6F411AD9856,
 	SpiralPlugin_Reset_m319A32901733352790FAF1A66AC4E776DDA58233,
 	SpiralPlugin_SetFrom_mF4053B0805926521D8DEC23E170B69E2BA4875AA,
 	SpiralPlugin_SetFrom_m58FFC5D8F892025A3C4E14C38D76015E51587825,
-	SpiralPlugin_Get_mE4C4E109C56275C41CD556F92D3AD5ED648555E1,
+	SpiralPlugin_Get_mEF40CC56A5043E8122C572AFCBC224BA925BC326,
 	SpiralPlugin_ConvertToStartValue_m477DB84B81F2B437E7AF9B9084CAB25CCEF4C30B,
 	SpiralPlugin_SetRelativeEndValue_m77FD72DFFA7DC14B0D0D57D111301671EDBC6AD9,
 	SpiralPlugin_SetChangeValue_m11B21CBFB6515DCA1F88EFCE169C3BD8BC23FE43,
 	SpiralPlugin_GetSpeedBasedDuration_m9411E3272E6440BE242640F06F3A750978A9250D,
 	SpiralPlugin_EvaluateAndApply_m49DBCEF982963D510C824FC336962C1330278AF6,
 	SpiralPlugin__ctor_m9ACFE0F9B14BBBD77A9570420667150892067033,
-	SpiralPlugin__cctor_mAE281EE6B5D19AA288BCF839D93250268783A09A,
+	SpiralPlugin__cctor_m0DAEB3A86F770B21433A721D2ACD3A33A3F6DAB4,
 	NULL,
 	NULL,
 	NULL,
@@ -177,50 +177,50 @@ static Il2CppTokenAdjustorThunkPair s_adjustorThunks[1] =
 };
 static const int32_t s_InvokerIndices[55] = 
 {
-	3380,
-	3380,
-	3380,
-	3380,
-	3380,
-	5188,
-	5188,
-	5188,
-	3380,
-	3380,
-	3380,
-	3380,
-	2793,
-	2793,
-	3380,
-	3380,
-	3380,
-	3380,
-	3380,
-	3380,
-	2735,
-	3380,
-	3380,
-	2793,
-	3299,
-	3299,
-	3299,
-	3380,
-	3380,
-	3380,
-	3380,
-	5290,
-	3380,
-	2793,
-	1624,
-	607,
-	5265,
-	1338,
-	2793,
-	2793,
-	800,
+	3628,
+	3628,
+	3628,
+	3628,
+	3628,
+	5477,
+	5477,
+	5477,
+	3628,
+	3628,
+	3628,
+	3628,
+	2986,
+	2986,
+	3628,
+	3628,
+	3628,
+	3628,
+	3628,
+	3628,
+	2920,
+	3628,
+	3628,
+	2986,
+	3536,
+	3536,
+	3536,
+	3628,
+	3628,
+	3628,
+	3628,
+	5581,
+	3628,
+	2986,
+	1708,
+	634,
+	5554,
+	1394,
+	2986,
+	2986,
+	837,
 	18,
-	3380,
-	5290,
+	3628,
+	5581,
 	0,
 	0,
 	0,
@@ -231,7 +231,7 @@ static const int32_t s_InvokerIndices[55] =
 	0,
 	0,
 	0,
-	3380,
+	3628,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_DOTweenPro_CodeGenModule;
 const Il2CppCodeGenModule g_DOTweenPro_CodeGenModule = 
