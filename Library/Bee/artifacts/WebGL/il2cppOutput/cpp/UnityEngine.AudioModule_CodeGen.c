@@ -13,11 +13,11 @@
 
 
 // 0x00000001 System.Void UnityEngine.AudioSettings::InvokeOnAudioConfigurationChanged(System.Boolean)
-extern void AudioSettings_InvokeOnAudioConfigurationChanged_m68920E152749F71573C3D10E20967B1850B6EFD8 (void);
+extern void AudioSettings_InvokeOnAudioConfigurationChanged_m8273D3AEB24F4C3E374238B6F699BE6696808E85 (void);
 // 0x00000002 System.Void UnityEngine.AudioSettings::InvokeOnAudioSystemShuttingDown()
-extern void AudioSettings_InvokeOnAudioSystemShuttingDown_mFD616504DB4E06637332C1E0AF38485F114B1335 (void);
+extern void AudioSettings_InvokeOnAudioSystemShuttingDown_m1B9895D60B3267EBDEC69B9169730DBAD8325E90 (void);
 // 0x00000003 System.Void UnityEngine.AudioSettings::InvokeOnAudioSystemStartedUp()
-extern void AudioSettings_InvokeOnAudioSystemStartedUp_mD0A9BBF2123B903815EEB7099FB60C9141A146A9 (void);
+extern void AudioSettings_InvokeOnAudioSystemStartedUp_m7FE042936237E5BDCB20299D8C4CF583B661468C (void);
 // 0x00000004 System.Void UnityEngine.AudioSettings/AudioConfigurationChangeHandler::.ctor(System.Object,System.IntPtr)
 extern void AudioConfigurationChangeHandler__ctor_mA9827AB9472EC8EE0A0F0FC24EBC06B4740DD944 (void);
 // 0x00000005 System.Void UnityEngine.AudioSettings/AudioConfigurationChangeHandler::Invoke(System.Boolean)
@@ -35,9 +35,9 @@ extern void PCMSetPositionCallback__ctor_mD16F77DDB552EB69BB3F5EF39420B2F09F9545
 // 0x0000000B System.Void UnityEngine.AudioClip/PCMSetPositionCallback::Invoke(System.Int32)
 extern void PCMSetPositionCallback_Invoke_m434D4F02FA25F91DF6199EC5A799C551C7F93702 (void);
 // 0x0000000C System.Single UnityEngine.AudioSource::GetPitch(UnityEngine.AudioSource)
-extern void AudioSource_GetPitch_mB9466DBF99CC1597DF1234B9FF79B5762B64905D (void);
+extern void AudioSource_GetPitch_m80F6D2BAF966F669253E9231AFCFFC303779913D (void);
 // 0x0000000D System.Void UnityEngine.AudioSource::SetPitch(UnityEngine.AudioSource,System.Single)
-extern void AudioSource_SetPitch_m5BED1C7AB47626ACCD727A20D22FCF9FC29D2F9F (void);
+extern void AudioSource_SetPitch_mE75DEDF8F37301BDA63E0F545A7A00850C24F53E (void);
 // 0x0000000E System.Single UnityEngine.AudioSource::get_volume()
 extern void AudioSource_get_volume_m9CCF33BC636562EA282FDE07463B547D70134EE3 (void);
 // 0x0000000F System.Void UnityEngine.AudioSource::set_volume(System.Single)
@@ -68,9 +68,9 @@ extern void AudioMixerPlayable_GetHandle_m6C182D9794E901D123223BB57738A302BEAB41
 extern void AudioMixerPlayable_Equals_mDFB945EB48199A338BAD00D40FB8EEC34CF64D57 (void);
 static Il2CppMethodPointer s_methodPointers[27] = 
 {
-	AudioSettings_InvokeOnAudioConfigurationChanged_m68920E152749F71573C3D10E20967B1850B6EFD8,
-	AudioSettings_InvokeOnAudioSystemShuttingDown_mFD616504DB4E06637332C1E0AF38485F114B1335,
-	AudioSettings_InvokeOnAudioSystemStartedUp_mD0A9BBF2123B903815EEB7099FB60C9141A146A9,
+	AudioSettings_InvokeOnAudioConfigurationChanged_m8273D3AEB24F4C3E374238B6F699BE6696808E85,
+	AudioSettings_InvokeOnAudioSystemShuttingDown_m1B9895D60B3267EBDEC69B9169730DBAD8325E90,
+	AudioSettings_InvokeOnAudioSystemStartedUp_m7FE042936237E5BDCB20299D8C4CF583B661468C,
 	AudioConfigurationChangeHandler__ctor_mA9827AB9472EC8EE0A0F0FC24EBC06B4740DD944,
 	AudioConfigurationChangeHandler_Invoke_m4DC27DD11512481B60071B20284E6886DAE54DE2,
 	AudioClip_InvokePCMReaderCallback_Internal_m766E5705AB5AE16F5F142867CC3758ABE4BF462C,
@@ -79,8 +79,8 @@ static Il2CppMethodPointer s_methodPointers[27] =
 	PCMReaderCallback_Invoke_m76784C690C36B513E2AA5B0E4FD9831B2C7E5152,
 	PCMSetPositionCallback__ctor_mD16F77DDB552EB69BB3F5EF39420B2F09F95455B,
 	PCMSetPositionCallback_Invoke_m434D4F02FA25F91DF6199EC5A799C551C7F93702,
-	AudioSource_GetPitch_mB9466DBF99CC1597DF1234B9FF79B5762B64905D,
-	AudioSource_SetPitch_m5BED1C7AB47626ACCD727A20D22FCF9FC29D2F9F,
+	AudioSource_GetPitch_m80F6D2BAF966F669253E9231AFCFFC303779913D,
+	AudioSource_SetPitch_mE75DEDF8F37301BDA63E0F545A7A00850C24F53E,
 	AudioSource_get_volume_m9CCF33BC636562EA282FDE07463B547D70134EE3,
 	AudioSource_set_volume_mD902BBDBBDE0E3C148609BF3C05096148E90F2C0,
 	AudioSource_get_pitch_mB1B0B8A52400B5C798BF1E644FE1C2FFA20A9863,
@@ -109,33 +109,33 @@ static Il2CppTokenAdjustorThunkPair s_adjustorThunks[4] =
 };
 static const int32_t s_InvokerIndices[27] = 
 {
-	5181,
-	5290,
-	5290,
-	1633,
-	2735,
-	2793,
-	2776,
-	1633,
-	2793,
-	1633,
-	2776,
-	5097,
-	4815,
-	3334,
-	2823,
-	3334,
-	2823,
-	2776,
-	2776,
-	1633,
-	1644,
-	3305,
-	1970,
-	1027,
-	1020,
-	3305,
-	1971,
+	5470,
+	5581,
+	5581,
+	1717,
+	2920,
+	2986,
+	2968,
+	1717,
+	2986,
+	1717,
+	2968,
+	5385,
+	5100,
+	3572,
+	3017,
+	3572,
+	3017,
+	2968,
+	2968,
+	1717,
+	1728,
+	3542,
+	2086,
+	1074,
+	1067,
+	3542,
+	2087,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_UnityEngine_AudioModule_CodeGenModule;
 const Il2CppCodeGenModule g_UnityEngine_AudioModule_CodeGenModule = 
